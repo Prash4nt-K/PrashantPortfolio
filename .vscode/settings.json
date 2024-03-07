@@ -1,0 +1,4 @@
+{
+    "appService.defaultWebAppToDeploy": "/subscriptions/57a15716-14f6-4885-85f6-fce342481b83/resourceGroups/HostApps/providers/Microsoft.Web/sites/PrashantPortfolio",
+    "appService.deploySubpath": "dist"
+}

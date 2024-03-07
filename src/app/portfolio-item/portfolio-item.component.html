@@ -1,0 +1,174 @@
+<br><br><br>
+
+<div class="container">
+
+    <div class="hide">
+        <img src="../../assets/images/img.jpeg" width="175px" height="175px">
+    </div>
+
+    <div class="row" id="about">
+        <div class="col-2 show">
+            <img src="../../assets/images/img.jpeg" width="175px" height="175px">
+        </div>
+
+        <div class="col-10 heading" style="word-wrap: break-word;">
+            <p style="font-size: 18px;">
+                Hi, my name is
+              </p>
+              <b style="font-size: 50px;">
+                Prashant Katare.
+              </b>
+                <br>
+              <b style="font-size: 40px;">
+                I build things for the web.
+              </b>
+        </div>
+    </div>
+
+    <!-- ................................................................................... -->
+
+
+    <br><br><br>
+
+
+    <div class="row">
+        <div class="col rcorners shadow" style="word-wrap: break-word; padding: 20px;">
+            Full Stack Developer with 2+ years of experience in designing, developing, and implementing scalable web applications using modern technologies. 
+            Proficient in both front-end and back-end development. Strong analytical and problem-solving skills, with a keen eye for detail and an ability to rapidly learn and adapt to new technologies. 
+            Excellent communication and teamwork abilities, contributing to efficient project management and successful software solutions.
+        </div>
+    </div>
+
+
+    <!-- ................................................................................... -->
+
+
+    <br><br><br>
+
+    <div class="row heading">
+        Skills
+    </div>
+
+    <br>
+
+    <div class="row">
+
+        <div class="col">
+            <div *ngFor="let skill of skills;" class="col-3 rcorners shadow card" style="background-color: #E52B50; color: antiquewhite;">
+                {{skill}}
+            </div>
+        </div>
+
+    </div>
+
+
+    <br><br><br>
+
+    <!-- ................................................................................... -->
+
+
+    <div class="row heading">
+        Certifications
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col-3 rcorners shadow card">
+            Introduction to HTML5 (Coursera)
+            <br>
+            <p style="font-size: small;">ID - 7WCTHLPFTP9B</p>
+        </div>
+        <div class="col-3 rcorners shadow card">
+            Oracle Certified Associate, Java SE 8 Programmer
+            <br>
+            <p style="font-size: small;">ID - 273187650OCAJSE8</p>
+            
+        </div>
+    </div>
+
+
+    <br><br><br>
+
+    <!-- ................................................................................... -->
+
+
+    <div class="row heading" id="experience">
+        Experience
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col rcorners shadow card">
+            Backend Developer - Tata Consultancy Services
+            <p style="font-size: small;">(Aug 2021 - Present)</p>
+            
+            <ul *ngFor="let items of experienceItems" style="margin: 0; font-size: small;">
+                <li>{{items}}</li>
+            </ul>
+        </div>
+    </div>
+
+
+    <!-- ................................................................................... -->
+
+
+    <br><br><br>
+
+
+    <div class="row heading" id="work">
+        Work
+    </div>
+
+    <br>
+
+    <div class="row">
+        <div class="col rcorners shadow card">
+            Chat App
+            <div class="row" style="font-size: small;">
+                <p class="col-12">It's an anonymous Chat App. Backend has been build using Node js and Express Js using the Socket.IO library. 
+                    The UI has been build using Angular. The app uses MongoDb database. The Frontend has been hosted on Google Firebase. 
+                    The backend has been hosted on Heroku.</p>
+                <a class="col-2 links" href="https://github.com/Prash4nt-K/Chat-App">Github</a>
+                <a class="col-2 links" href="https://chat-app-70c06.web.app">App</a>
+            </div>
+            
+            <br>
+
+            ToDoList App
+            <div class="row" style="font-size: small;">
+                <p class="col-12">It's a very simple To Do List App. The Frontend has been build using Angular. The Backend has been build using Node js. 
+                    The app use MongoDb database. The Frontend has been hosted on Google Firebase. The backend has been hosted on Heroku. 
+                    The app uses MongoDb Atlas database.</p>
+                <a class="col-2 links" href="https://github.com/Prash4nt-K/ToDoList-App">Github</a>
+                <a class="col-2 links" href="https://todolist-1030.web.app/">App</a>
+            </div>
+
+            <br>
+
+            Hospital Management Project named "Sanjeevani" (Java based Application)
+            <div class="row" style="font-size: small;">
+                <p class="col-12">The project manages data of hospital employees and patients. 
+                    It also allots appointments to patients with doctors as per availability of doctors.</p>
+                <a class="col-2 links" href="https://github.com/Prash4nt-K/Java-SE-based-project">Github</a>
+            </div>
+
+            <br>
+
+            TRAFFIC POLICE APP ( ADVANCE JAVA BASED WEB APPLICATION)
+            <div class="row" style="font-size: small;">
+                <p class="col-12">The web application is for Traffic Police Personnel. 
+                It facilitates services such register violations, issue ticket/challan, make payments, 
+                call a medical emergency and call support cop team in case of emergency. 
+                Java EE conponents such as Servlets, JSP, JDBC have been used to build the application.</p>
+                <a class="col-2 links" href="https://github.com/Prash4nt-K/ESEVA-Java-web-application-Java-EE-Project">Github</a>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
